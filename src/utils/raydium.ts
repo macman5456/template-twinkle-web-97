@@ -2,7 +2,7 @@ import { Connection, Keypair, PublicKey } from '@solana/web3.js';
 import { Liquidity, Token, TokenAmount, TOKEN_PROGRAM_ID } from '@raydium-io/raydium-sdk';
 import bs58 from 'bs58';
 
-export const SOLANA_RPC = 'https://api.mainnet-beta.solana.com';
+export const SOLANA_RPC = 'https://georgianna-k21s7o-fast-mainnet.helius-rpc.com';
 
 export const initializeConnection = () => {
   return new Connection(SOLANA_RPC);
