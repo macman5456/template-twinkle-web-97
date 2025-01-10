@@ -4,7 +4,6 @@ import { DexSelector } from "@/components/DexSelector";
 import { AddressCounter } from "@/components/AddressCounter";
 import { BuyAmount } from "@/components/BuyAmount";
 import { MevTip } from "@/components/MevTip";
-import { InfoBanner } from "@/components/InfoBanner";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -20,7 +19,6 @@ const Index = () => {
             <BuyAmount />
           </div>
           <MevTip />
-          <InfoBanner />
           <Button className="w-full bg-primary hover:bg-primary/90 text-lg py-6">
             Start
           </Button>
